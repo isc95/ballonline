@@ -5,6 +5,7 @@
     <title>MaximumBetHD.com - ดูบอล ดูบอลฟรี ดูบอลพรีเมียร์ลีก ดูบอลสด ดูบอลออนไลน์</title>
 </head>
 <body>
+<div id="video"></div> <script>var playerInstance = jwplayer("video");
 jwplayer("video").setup({
   file: "http://lineballsod.wowza40.sakkarinsai8.com:19364/lineballsod53/00_2sport7_360p/playlist.m3u8?key=8b43e0e52eba66da26e2799384913078",
   width: "100%",
@@ -15,6 +16,13 @@ jwplayer("video").setup({
   hlshtml: true,
   stretching: "exactfit",
   primary: 'html5',
+  title: '',
+  logo: {
+    file: "http://www.lineballsod.com/images/iptvlogo.gif",
+    position: 'top-right',
+    margin: '10',
+    link: "http://www.lineballsod.com/register/"
+	},
 </body>
 
 </html>
