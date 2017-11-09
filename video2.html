@@ -5,11 +5,16 @@
     <title>MaximumBetHD.com - ดูบอล ดูบอลฟรี ดูบอลพรีเมียร์ลีก ดูบอลสด ดูบอลออนไลน์</title>
 </head>
 <body>
-<div class="row">
-            <div class="col-lg-7 text-left">
-            	<!--div id="divLive"></div-->
-                                    	<iframe id="iframeLive" allowfullscreen="allowfullscreen" width="100%" src="http://lineballsod.wowza40.sakkarinsai8.com:19364/lineballsod53/00_2sport7_360p/playlist.m3u8?key=8b43e0e52eba66da26e2799384913078"></iframe>
-                                </div>
+jwplayer("video").setup({
+  file: "http://lineballsod.wowza40.sakkarinsai8.com:19364/lineballsod53/00_2sport7_360p/playlist.m3u8?key=8b43e0e52eba66da26e2799384913078",
+  width: "100%",
+  aspectratio: "16:9",
+  autostart: true,
+  androidhls: true,
+  preload: "auto",
+  hlshtml: true,
+  stretching: "exactfit",
+  primary: 'html5',
 </body>
 
 </html>
